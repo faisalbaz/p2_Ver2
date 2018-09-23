@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
    <title>Blood Pressure Monitor</title>
@@ -98,9 +97,7 @@
 				</div>
 				<button type="submit" class="btn btn-primary" id="submit" name="submit">Submit</button>
 			</form>
-			<br><br>
-			<img src="images/BPChart.jpg" class="img-responsive center-block" width="609" height="720" alt="blood pressure table">
-			<br>&nbsp;
+			
 	   </div>
 	   <div class="col-sm-6">
 		   <h2 class="text-center" style="margin-top: 0px;">Your Blood Pressure History</h2><p style="text-align: center;">Last 20 Readings</p>
@@ -119,8 +116,12 @@
 							<th>Notes</th>
 							
 						</tr>
+						
 					</thead>
+					
 					<tbody>
+					<img src="images/BPChart.jpg" class="img-responsive center-block" width="609" height="720" alt="blood pressure table">
+			<br>&nbsp;
                <?php
              	   require ("db.php");
              		// Create connection
